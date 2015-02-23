@@ -1,7 +1,7 @@
 Complete image ready dedicated Windows portable-apps emulate compatibles
 ========================================================================
 
-Return to [index](https://github.com/marchandd/vncxvfb_wine_portableapps/README.md "Index")
+Return to [index](https://github.com/marchandd/vncxvfb_wine_portableapps/ "Index")
 
 Docker image from vncxvfb_wine-firefox image to run Windows portable-apps
 through emulator accessing by view remotely X displays.
@@ -41,7 +41,7 @@ with multi-tools.
 merge files and directories.
 - AntRenamer by Antp.be to rename files and directories.
 
-You can find [details](portable-apps.md "Portable-Apps_Details") 
+You can find [details](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/portable-apps.md "Portable-Apps_Details") 
 for apps features.
 
 ### Work-flow: 10 minutes to have 5 Portable-Apps ready to run ! ###

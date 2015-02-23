@@ -1,7 +1,7 @@
 Portability tested for vncxvfb_wine-portable-apps_samples image
 ================================================================
 
-Return to [summary](summary.md "Portable-Apps summary")
+Return to [summary](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Portable-Apps summary")
 
 Linux test environment
 ----------------------

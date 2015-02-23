@@ -37,7 +37,7 @@ Around 1300 Mb.
 
 ### Command line explanation
 
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/docs/summary.md "Summary")
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary")
 
 3 methods to find password:
 
@@ -66,7 +66,7 @@ Where XXXXX is your Private port, if you doesn't know free port, try from
 
 ### Command line explanation
 
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/docs/summary.md "Summary")
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary")
 
 ## Container usage
 
@@ -78,7 +78,7 @@ All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/doc
 
 ### Dockerfile
 
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/docs/summary.md "Summary")
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary")
 
 ### Display
 
@@ -87,7 +87,7 @@ VNC client need to be installed to run GUI applications.
 Wine is installed but need to be initialized before using it.  
 All Windows Portable-apps samples must been installed with deployed scripts.
 
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/docs/summary.md "Summary")
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary")
 
 ### Risks
 
