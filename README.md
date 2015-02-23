@@ -25,7 +25,7 @@ Around 1300 Mb.
 
 [Details source](https://github.com/marchandd/vncxvfb_wine_portableapps/ "Details")
 
-[Image parent](https://github.com/marchandd/vncxvfb_wine-firefox/ "Parent")
+[Image parent](https://github.com/marchandd/vncxvfb_wine_firefox/ "Parent")
 
 [Part of project studies](https://github.com/marchandd/docker_index/ "References")
 
