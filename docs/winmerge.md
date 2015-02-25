@@ -1,7 +1,7 @@
 Portability tested for WinMerge Portable-app
 =============================================
 
-Return to [details](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/portable-apps.md "Portable-Apps_Details") 
+Return to [details](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary") 
 
 Description
 -----------
