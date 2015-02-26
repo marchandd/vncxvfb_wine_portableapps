@@ -28,13 +28,13 @@ Docker containers.
 Softwares tested
 ----------------
 
-- | State |  | Portable-app
--- | -- | --
-| Silver | | [ToDoList](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/todolist.md "ToDoList_Details") ZIP-app
-| Silver | | [FreeCommander](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/freecommander.md "FreeCommander_Details") Portable-app
-| Gold | | [Notepad++](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/notepad.md "Notepad++_Details") Portable-app
-| Gold | | [WinMerge](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/winmerge.md "WinMerge_Details") Portable-app
-| Gold | | [AntRenamer](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/antrenamer.md "AntRenamer_Details") Portable-app
+| State | Portable-app  
+| --- | ---  
+| Silver | [ToDoList](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/todolist.md "ToDoList_Details") ZIP-app  
+| Silver | [FreeCommander](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/freecommander.md "FreeCommander_Details") Portable-app  
+| Gold | [Notepad++](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/notepad.md "Notepad++_Details") Portable-app  
+| Gold | [WinMerge](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/winmerge.md "WinMerge_Details") Portable-app  
+| Gold | [AntRenamer](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/antrenamer.md "AntRenamer_Details") Portable-app  
 
 Dockerfile explanation
 ----------------------
