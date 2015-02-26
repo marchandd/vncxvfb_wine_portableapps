@@ -72,7 +72,7 @@ All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blo
 
 ### Alias
 
-:computer: `firefox`
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary")
 
 ## Explanations
 

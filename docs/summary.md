@@ -131,13 +131,6 @@ Then, you build the image with command line above.
 In case you doesn't want keep tracks, just leave "> build.log" from command 
 line and search VNC password access on screen.
 
-### Firewall
-
-:warning: If your Firewall is enabled on the host, with default outgoing policy turned to 
-deny, 
-you will have to disable 5900 port filtering:
-- Make a new rule for VNC (5900/TCP) to enable outgoing policy.
-
 Command container usage
 -----------------------
 
@@ -181,3 +174,13 @@ Active aliases at the end of all installs made:
 - :computer: `source ~/.bashrc`
 
 If you have run container with "V option" you can share data with host.
+
+### Alias
+
+When you are connected to container and when you have run all scripts described above.
+
+:computer: `todolist`  
+:computer: `freecommander`  
+:computer: `notepad`  
+:computer: `winmerge`  
+:computer: `antrenamer`
