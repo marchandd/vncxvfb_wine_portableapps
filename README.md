@@ -41,7 +41,7 @@ All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blo
 
 3 methods to find password:
 
-- Search password value into build.log file from marchandd/vncxvfb_wine_portableapps image to access later to container.
+- Search password value into build.log file from marchandd/vncxvfb_wine_portableapps or vncxvfb_wine_firefox images to access later to container.
 
 - If you don't have build image with log file redirection, use this comand:  
 :computer: `docker inspect IMAGEID`
@@ -59,7 +59,7 @@ you will have to disable 5900 port filtering:
 
 ### Command line
 
-:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_firefox`
+:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_portableapps`
 
 Where XXXXX is your Private port, if you doesn't know free port, try from 
 49200...
