@@ -13,7 +13,7 @@ Complex method to produce a GUI containers to access to Windows Portable-apps in
 Image can run Windows software through emulator accessing by view remotely X displays.
 
 After image and container builds, connect to container with VNC.  
-Run scripts for Windows Portable-apps samples to install and use like explain in [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/docs/summary.md "Summary").
+Run scripts for Windows Portable-apps samples to install and use like explain in [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary").
 
 ### Image size
 
