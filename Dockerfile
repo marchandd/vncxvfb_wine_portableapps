@@ -1,4 +1,4 @@
-FROM marchandd/vncxvfb_wine-firefox:latest
+FROM marchandd/vncxvfb_wine_firefox:latest
 MAINTAINER Marchand D. https://github.com/marchandd/vncxvfb_wine_portableapps
 ENV VE_version="MarchandD_20150228_v01.00"
 # Downloads softwares deliveries from file (-i) to target directories (-P) with log (-o)
