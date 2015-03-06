@@ -120,16 +120,7 @@ Command build image usage
 
 ### Command line
 
-- :computer: `cd YOUR_DIRECTORY`
-- :computer: `docker build --rm=true -t vncxvfb_wine_portableapps . > 
-build.log`
-
-### Command line explanation
-
-First, you copy all files in YOUR_DIRECTORY directory.  
-Then, you build the image with command line above.  
-In case you doesn't want keep tracks, just leave "> build.log" from command 
-line and search VNC password access on screen.
+:computer: `docker pull marchandd/vncxvfb_wine_portableapps`
 
 Command container usage
 -----------------------
@@ -137,7 +128,7 @@ Command container usage
 ### Command line
 
 - :computer: `docker run -d -p 127.0.0.1:XXXXX:5900 --name 
-latest -v LOCALPATH:/data vncxvfb_wine_portableapps`
+latest -v LOCALPATH:/data marchandd/vncxvfb_wine_portableapps`
 
 Where XXXXX is your Private port, if you doesn't know free port, try from 
 49200...  
@@ -153,8 +144,7 @@ Container usage
 - Open your VNC client (Terminal Server Client on Gnome, KRDC on KDE).
 - Choose VNC option and type localhost:XXXXX remote desktop.
   XXXXX is your private port you have choose previously.
-- Choose root user and enter VNC password you have find previously when 
-  building vncxvfb_wine_firefox image.
+- Choose root user and enter VNC password from marchandd/vncxvfb_wine_firefox image as 'vncxvfb_wine_firefox' for Docker public repository access.
 - You can have unsecured channel warning message because SSL is not activated.
 
 ### VNC client session

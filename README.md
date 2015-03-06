@@ -33,20 +33,7 @@ Around 1300 Mb.
 
 ### Command line
 
-:computer: `docker pull marchandd/vncxvfb_wine_portableapps > build.log`
-
-### Command line explanation
-
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary")
-
-3 methods to find password:
-
-- Search password value into build.log file from marchandd/vncxvfb_wine_portableapps or vncxvfb_wine_firefox images to access later to container.
-
-- If you don't have build image with log file redirection, use this comand:  
-:computer: `docker inspect IMAGEID`
-
-- If you don't have password value, enter directly into container to find log inside with [Nsenter](http://itsagooddaytobegeek.com/docker-ep-02-installation-de-nsenter/ "Nsenter")
+:computer: `docker pull marchandd/vncxvfb_wine_portableapps`
 
 ### Firewall
 
@@ -60,9 +47,6 @@ you will have to disable 5900 port filtering:
 ### Command line
 
 :computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_portableapps`
-
-Where XXXXX is your Private port, if you doesn't know free port, try from 
-49200...
 
 ### Command line explanation
 
@@ -86,6 +70,8 @@ GUI applications are not able to run directly in terminal.
 VNC client need to be installed to run GUI applications.  
 Wine is installed but need to be initialized before using it.  
 All Windows Portable-apps samples must been installed with deployed scripts.
+
+Basic fixed password for Docker public repository from marchandd/vncxvfb_wine_firefox image = 'vncxvfb_wine_firefox'
 
 All details on [docs](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/summary.md "Summary")
 
