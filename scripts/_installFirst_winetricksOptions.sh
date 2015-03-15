@@ -1,6 +1,6 @@
 #!/bin/bash
 #DM*20150115 winetricks succesfully based
-#On Host: KUbuntu(14.10), Docker(1.4.1) through KRDC-VNC(4.14.1)
+#On Host: KUbuntu(14.10), Docker(1.4.1)
 #On Client with Root account: Ubuntu(14.10), Wine(1.17.32)
 
 #Common registry
@@ -8,7 +8,8 @@ wineCommand=$(which wine)
 wineDirectory=~/.wine
 winetricksCommand=$(which winetricks)
 driveCDirectory=$wineDirectory/drive_c
-
+dataDirectory='/data/'
+dataSymbolicLink='/root/.wine/drive_c/users/Public/Documents/dataaccess'
 #Common script
 if [ $wineCommand ];
   then
@@ -53,7 +54,12 @@ if [ $winetricksCommand ];
         echo "$driveCDirectory content:"
         ls -all $driveCDirectory
       else
-        echo "$driveCDirectory not available... Please type winecfg in console from vnc client to create $wineDirectory directories."    
+        echo "$driveCDirectory not available... Please type winecfg in console from GUI client to create $wineDirectory directories."    
+    fi
+    if [ -d $dataDirectory ];
+      then
+        echo "$dataDirectory linked to $dataSymbolicLink"
+        ln -s $dataDirectory $dataSymbolicLink
     fi
   else
     echo "Failed to find winetricks in computer. Installation aborted !"

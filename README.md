@@ -46,7 +46,7 @@ you will have to disable 5900 port filtering:
 
 ### Command line
 
-:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_portableapps`
+:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 -v LOCALPATH:/data marchandd/vncxvfb_wine_portableapps`
 
 ### Command line explanation
 
