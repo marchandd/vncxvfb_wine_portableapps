@@ -31,7 +31,7 @@ Softwares tested
 
 | State | Portable-app  
 | --- | ---  
-| Silver | [ToDoList](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/todolist.md "ToDoList_Details") ZIP-app  
+| Gold | [ToDoList](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/todolist.md "ToDoList_Details") ZIP-app  
 | Silver | [FreeCommander](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/freecommander.md "FreeCommander_Details") Portable-app  
 | Gold | [Notepad++](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/notepad.md "Notepad++_Details") Portable-app  
 | Gold | [WinMerge](https://github.com/marchandd/vncxvfb_wine_portableapps/blob/master/docs/winmerge.md "WinMerge_Details") Portable-app  
@@ -128,10 +128,11 @@ Command container usage
 
 ### Command line
 
-- :computer: `docker run -d -p 127.0.0.1:XXXXX:5900 --name 
-latest -v LOCALPATH:/data marchandd/vncxvfb_wine_portableapps`
+- :computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:5900 --name 
+latest_vncxvfb_wine_portableapps -v LOCALPATH:/data marchandd/vncxvfb_wine_portableapps`
 
-Where XXXXX is your Private port, if you doesn't know free port, try from 
+Where XXX.XXX.XXX.XXX is your IP v4 address.  
+Where YYYYY is your Private port, if you doesn't know free port, try from 
 49200...  
 LOCALPATH is a local directory to share data between host and container.
 In case you doesn't want to share data, just leave "-v LOCALPATH:/data" 
@@ -143,8 +144,8 @@ Container usage
 ### VNC client access
 
 - Open your VNC client (Terminal Server Client on Gnome, KRDC on KDE).
-- Choose VNC option and type localhost:XXXXX remote desktop.
-  XXXXX is your private port you have choose previously.
+- Choose VNC option and type localhost:YYYYY remote desktop.
+  YYYYY is your private port you have choose previously.
 - Choose root user and enter VNC password from marchandd/vncxvfb_wine_firefox image as 'vncxvfb_wine_firefox' for Docker public repository access.
 - You can have unsecured channel warning message because SSL is not activated.
 
