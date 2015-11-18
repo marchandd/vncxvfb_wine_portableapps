@@ -46,7 +46,7 @@ you will have to disable 5900 port filtering:
 
 ### Command line
 
-:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:5900 --name latest_vncxvfb_wine_portableapps -v LOCALPATH:/data marchandd/vncxvfb_wine_portableapps` 
+:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:5900 --name latest_vncxvfb_wine_portableapps -v LOCALPATH:/data marchandd/vncxvfb_wine_portableapps`   
 Where XXX.XXX.XXX.XXX is your IP v4 address.  
 Where YYYYY is your Private port, if you doesn't know free port, try from 49200...
 
